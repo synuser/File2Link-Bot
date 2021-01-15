@@ -1,0 +1,42 @@
+{
+ "name": "New Tg Lui",
+ "description": "Telegra hui dope!!",
+ "logo": "https://telegra.ph/file/315d6985c6fe4f6824cde.jpg",
+ "keywords": [
+   "telegram",
+   "likBot",
+   "For Screem Bot"
+  ],
+ "repository": "https://github.com/synuser/File2Link-Bot",
+ "env": {
+   "TG_API_ID": {
+      "description": "Your Telegram API ID. Get this value from my.telegram.org!",
+      "value": ""
+  },
+   "TG_API_HASH": {
+      "description": " Your Telegram API hash. Get this value from my.telegram.org!",
+      "value": ""
+  },
+   "TG_BOT_FATHER_TOKEN": {
+      "description": "Your Bot token, as a string",
+      "value": ""
+  },
+   "TG_SESSION_NAME": {
+      "description": " Your Telegram API hash. Get this value from my.telegram.org!",
+      "value": ""
+  },
+   "TG_START_MESG": {
+      "description": "Your Bot token, as a string",
+      "value": ""
+  },
+   "HOST": {
+      "description": "Leave the Same Value",
+      "value": "0.0.0.0",
+      "required": false
+  },
+   "PUBLIC_URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": ""
+  }
+ }
+}
