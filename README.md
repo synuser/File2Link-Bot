@@ -22,7 +22,7 @@ should include the protocol, e.g. `https://example.com`.
 * `CONNECTION_LIMIT` (default 20) - The maximum number of connections to a single Telegram datacenter.
 * `TG_START_MESG` - The message that should be shown in Telegram chat, in case of non-media message.
 * `TG_G_C_MESG` - The message that should be shown in a Telegram Group chat.
-* `TG_SESSION_NAME` (defaults to `tgfilestream`) - The name of the Telethon session file to use.
+* `TG_SESSION_NAME` (defaults to `botez`) - The name of the Telethon session file to use.
 * `TG_BOT_FATHER_TOKEN` (defaults to None) - This option is mutually exclusive to `TG_SESSION_NAME`, and if set, the client will login as a bot, instead of an user.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
