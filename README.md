@@ -3,7 +3,7 @@ A Telegram bot that can stream Telegram files to users over HTTP.
 
 ## Setup
 Install dependencies (see [requirements.txt](/requirements.txt)), configure
-environment variables (see below) and run with `python3 -m tgfilestream`.
+environment variables (see below) and run with `python3 -m botez`.
 
 A reverse proxy is recommended to add TLS. When using a reverse proxy, keep
 `HOST` as-is, but add the publicly accessible URL to `PUBLIC_URL`. The URL
