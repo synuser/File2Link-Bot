@@ -23,4 +23,4 @@ else:
     logging.basicConfig(level=logging.DEBUG if debug else logging.INFO)
     logging.getLogger("telethon").setLevel(logging.INFO if debug else logging.ERROR)
 
-log = logging.getLogger("tgfilestream")
+log = logging.getLogger("botez")
